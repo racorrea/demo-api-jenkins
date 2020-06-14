@@ -11,7 +11,7 @@ public class PersonaController {
 	
 	@GetMapping("/personas")
 	public Persona listar() {
-		return new Persona(2, "Pedro", "Ramirez", 56);
+		return new Persona(2, "Juan", "Paladines", 56);
 	}
 
 }
