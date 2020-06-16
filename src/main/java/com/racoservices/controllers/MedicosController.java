@@ -11,7 +11,7 @@ public class MedicosController {
 
     @GetMapping("/medicos")
     public Medicos listar (){
-        return new Medicos(56, "Ismael", "Paredes", "Pediatra");
+        return new Medicos(56, "Ismael", "Paredes", "Oncologo");
     }
 
 
