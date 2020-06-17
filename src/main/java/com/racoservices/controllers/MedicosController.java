@@ -22,7 +22,7 @@ public class MedicosController {
 
     @GetMapping("/medicos/{id}")
     public Medicos listar (@PathVariable Integer id){
-        return new Medicos(id, "Carlos", "Rodriguez", "cardiolog");
+        return new Medicos(id, "Carlos", "Rodriguez", "cardiologo");
     }
 
 
