@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/java,code-java,maven,java-web
-# Edit at https://www.toptal.com/developers/gitignore?templates=java,code-java,maven,java-web
+# Created by https://www.toptal.com/developers/gitignore/api/java,java-web,code-java,maven,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=java,java-web,code-java,maven,visualstudiocode
 
 ### Code-Java ###
 # Language Support for Java(TM) by Red Hat extension for Visual Studio Code - https://marketplace.visualstudio.com/items?itemName=redhat.java
@@ -50,4 +50,16 @@ buildNumber.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
 
-# End of https://www.toptal.com/developers/gitignore/api/java,code-java,maven,java-web
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+# End of https://www.toptal.com/developers/gitignore/api/java,java-web,code-java,maven,visualstudiocode
