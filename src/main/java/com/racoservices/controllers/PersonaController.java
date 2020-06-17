@@ -13,6 +13,11 @@ public class PersonaController {
 		return new Persona(25698, "Paul", "Ramón", 29);
 	}
 
+	@GetMapping("/persona/edad/{edad}")
+    public Medicos listar (@PathVariable Intenger edad){
+        return new Medicos(56, "Carlos", "Rodriguez", edad);
+    }
+
 	
 
 }
