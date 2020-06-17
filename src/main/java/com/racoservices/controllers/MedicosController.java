@@ -20,5 +20,10 @@ public class MedicosController {
         return new Medicos(56, "Carlos", "Rodriguez", especialidad);
     }
 
+    @GetMapping("/medicos/{id}")
+    public Medicos listar (@PathVariable Integer id){
+        return new Medicos(id, "Carlos", "Rodriguez", "cardiolog");
+    }
+
 
 }
