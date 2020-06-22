@@ -16,6 +16,16 @@ public class PersonaController {
 	@GetMapping("/persona/edad/{edad}")
     public Medicos listar (@PathVariable Intenger edad){
         return new Medicos(56, "Carlos", "Rodriguez", edad);
+	}
+	
+	/**
+	 * Juanito 2020-06-22
+	 * @param edad
+	 * @return
+	 */
+	@GetMapping("/persona/edad/{edad}")
+    public Medicos listar (@PathVariable Intenger edad){
+        return new Medicos(56, "Carlos", "Rodriguez", edad);
     }
 
 	
