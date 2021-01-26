@@ -20,9 +20,14 @@ public class PersonaController {
         return new Medicos(56, "Carlos", "Rodriguez", edad);
 	}
 
-	@GetMapping("/persona/edad/{nombre}")
+	@GetMapping("/persona/nombre/{nombre}")
     public Medicos listar3 (@PathVariable String nombre){
         return new Medicos(56, nombre, "Rodriguez", 15);
+	}
+
+	@GetMapping("/persona/apellido/{apellido}")
+    public Medicos listar3 (@PathVariable String apellido){
+        return new Medicos(56, "Juanito", apellido, 33);
 	}
 	
 
