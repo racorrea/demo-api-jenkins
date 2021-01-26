@@ -26,7 +26,7 @@ public class PersonaController {
 	}
 
 	@GetMapping("/persona/apellido/{apellido}")
-    public Medicos listar3 (@PathVariable String apellido){
+    public Medicos listar4 (@PathVariable String apellido){
         return new Medicos(56, "Juanito", apellido, 33);
 	}
 	
