@@ -12,7 +12,7 @@ public class PersonaController {
 	
 	@GetMapping("/personas")
 	public Persona listar() {
-		return new Persona(25698, "Paul", "Ramón", 29);
+		return new Persona(25698, "Juan", "Perez", 29);
 	}
 
 	@GetMapping("/persona/edad/{edad}")
