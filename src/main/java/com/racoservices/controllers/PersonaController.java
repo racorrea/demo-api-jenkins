@@ -11,7 +11,7 @@ public class PersonaController {
 	
 	@GetMapping("/eventos")
 	public Persona listar() {
-		return new Persona(25698, "INVESTIGA", "UTPL", 2020);
+		return new Persona(25698, "Hello World!", " PIS - 2021 ", 2020);
 	}
 
 }
